@@ -37,14 +37,17 @@ img {
     color: white;
     padding: 12px 24px;
     border-radius: 8px;
-    text-decoration: floralwhite;
+    text-decoration: none;
     font-weight: bold;
     margin-top: 10px;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .btn:hover {
     background-color: #5146d9;
+    transform: all;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 600px) {
