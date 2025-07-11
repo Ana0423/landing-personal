@@ -87,3 +87,17 @@ img {
         transform: translateY(0);
     }
 }
+
+.fade {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeintext 1s ease-out forwards;
+}
+
+@keyframes fadeintext {
+        {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
